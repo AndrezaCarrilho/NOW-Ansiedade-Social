@@ -2,7 +2,7 @@
 
 "Your anxiety lives in the future. Your peace lives in the NOW."
 
-O NOW é um aplicativo de suporte terapêutico focado em trazer o usuário de volta ao momento presente. Projetado especificamente para lidar com a ansiedade social e a fobia social (como o medo de iniciar uma nova faculdade), o app utiliza técnicas de Mindfulness, desafios de exposição gradual e suporte comunitário anônimo.
+O NOW é um aplicativo de suporte terapêutico focado em trazer o usuário de volta ao momento presente. Projetado especificamente para lidar com a ansiedade social e a fobia social, o app utiliza técnicas de Mindfulness, desafios de exposição gradual e suporte comunitário anônimo.
 
 🎨 Design & UX
 O design do NOW foi pensado para ser um "abraço visual". Evitamos cores vibrantes que geram alerta, optando por uma paleta que promove a redução do cortisol.
