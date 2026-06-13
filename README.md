@@ -1,65 +1,82 @@
-# NOW-Ansiedade-Social
+# 📱 NOW - Apoio à Ansiedade Social
 
-"Your anxiety lives in the future. Your peace lives in the NOW."
+App mobile de apoio a pessoas com ansiedade social, desenvolvido em React Native com Expo. Criado a partir de pesquisa própria que identificou a ausência de ferramentas em português para esse público.
 
-O NOW é um aplicativo de suporte terapêutico focado em trazer o usuário de volta ao momento presente. Projetado especificamente para lidar com a ansiedade social e a fobia social, o app utiliza técnicas de Mindfulness, desafios de exposição gradual e suporte comunitário anônimo.
+---
 
-🎨 Design & UX
-O design do NOW foi pensado para ser um "abraço visual". Evitamos cores vibrantes que geram alerta, optando por uma paleta que promove a redução do cortisol.
+## 🚀 Tecnologias
 
-Link do Projeto (Figma): 
+- [React Native](https://reactnative.dev/)
+- [Expo](https://expo.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [GitHub Copilot](https://github.com/features/copilot) *(auxílio no desenvolvimento)*
 
-Estética: Minimalista, bordas arredondadas, tipografia limpa e ícones suaves.
+---
 
-🚀 Funcionalidades Principais
-The Now Button: Um botão de emergência que dispara imediatamente uma técnica de Grounding (5-4-3-2-1) e exercícios de respiração para crises em ambientes sociais.
+## ✨ Funcionalidades (v1)
 
-Small Steps (Missões): Desafios graduais para vencer o medo. Ex: "Hoje, apenas pergunte onde fica a biblioteca", tirando o peso de ter que "fazer amigos" instantaneamente.
+- [ ] Cadastro e login de usuário
+- [ ] Registro de episódio de ansiedade (data, gatilho, intensidade)
+- [ ] Registro de humor diário
+- [ ] Registro do nível social do dia (Alto, Médio, Baixo, Nenhum)
+- [ ] Registro livre sobre como foi o dia
+- [ ] Listagem do histórico de episódios
+- [ ] Exercícios de respiração para momentos de crise
 
-Daily Anchor (Diário): Um espaço para registrar pensamentos, com foco em "O que aconteceu de fato?" vs "O que minha ansiedade disse que aconteceria?".
+---
 
-Safe Circle: Uma comunidade anônima onde usuários podem compartilhar vitórias e medos sem o julgamento da identidade real.
+## 📁 Estrutura de Pastas
 
-🛠️ Especificações Técnicas
-Frontend
-Framework: React Native com Expo (para alta performance mobile e facilidade de deploy).
+```
+now/
+├── src/
+│   ├── screens/
+│   │   ├── Login.tsx
+│   │   ├── Cadastro.tsx
+│   │   ├── Home.tsx
+│   │   ├── RegistrarCrise.tsx
+│   │   ├── RegistrarDia.tsx
+│   │   ├── Historico.tsx
+│   │   └── Exercicios.tsx
+│   ├── components/
+│   ├── services/
+│   │   └── api.ts
+│   └── types/
+├── App.tsx
+├── package.json
+└── README.md
+```
 
-Gerenciamento de Estado: Context API ou Redux para lidar com dados de progresso e XP.
+---
 
-Animações: react-native-reanimated para criar uma experiência fluida na respiração guiada.
+## 📲 Como Rodar Localmente
 
-Backend & API
-Tecnologia: Node.js com Express ou Firebase Functions.
+**Pré-requisitos:** Node.js e Expo CLI instalados.
 
-Autenticação: Firebase Auth ou JWT para garantir que os dados do diário sejam privados e seguros.
+```bash
+# Clone o repositório
+git clone https://github.com/AndrezaCarrilho/NOW-Ansiedade-Social
 
-Arquitetura: RESTful API para comunicação entre o app e o banco de dados.
+# Instale as dependências
+npm install
 
-Banco de Dados (Database)
-Utilizaremos uma abordagem híbrida ou focada em NoSQL (Firebase Firestore / MongoDB) pela flexibilidade:
+# Inicie o projeto
+npx expo start
+```
 
-Collections Principais:
+Escaneie o QR code com o app **Expo Go** no celular.
 
-Users: Perfil, nível de XP, e configurações de privacidade.
+---
 
-Missions: Lista de desafios categorizados por nível de dificuldade.
+## 🔗 Links
 
-Journal: Entradas de texto criptografadas associadas ao ID do usuário.
+- 🎨 [Protótipo no Figma](#)
+- 📦 [Repositório](https://github.com/AndrezaCarrilho/NOW-Ansiedade-Social)
+- 🛠️ [NOW API](#)
 
-Forum_Posts: Relatos da comunidade, curtidas e comentários.
+---
 
-Armazenamento Local: AsyncStorage para garantir que o exercício de respiração funcione mesmo sem internet (offline-first).
+## 👩‍💻 Autora
 
-🛡️ Aviso Médico
-O NOW é uma ferramenta de apoio e não substitui o acompanhamento psicológico ou psiquiátrico profissional. Ele atua como um recurso complementar baseado em técnicas de TCC (Terapia Cognitivo-Comportamental).
-
-👩‍💻 Como contribuir
-Clone o repositório.
-
-Crie sua Feature Branch (git checkout -b feature/AmazingFeature).
-
-Commit suas mudanças (git commit -m 'Add some AmazingFeature').
-
-Push para a Branch (git push origin feature/AmazingFeature).
-
-Abra um Pull Request.
+**Andreza Carrilho**  
+[LinkedIn](https://linkedin.com/in/andreza-carrilho-358177261) • [Portfólio](https://portfolio-andreza-carrilho.vercel.app)
