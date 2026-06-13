@@ -4,6 +4,15 @@ App mobile de apoio a pessoas com ansiedade social, desenvolvido em React Native
 
 ---
 
+## 🔗 Projetos Relacionados
+
+| Projeto | Repositório | Link |
+|---------|-------------|------|
+| 🛠️ NOW API (Back-end) | [now-api](https://github.com/AndrezaCarrilho/now-api) | Em desenvolvimento |
+| 🎨 Portfólio | [Portfolio-AndrezaCarrilho](https://github.com/AndrezaCarrilho/Portfolio-AndrezaCarrilho) | [Ver online](https://portfolio-andreza-carrilho.vercel.app) |
+
+---
+
 ## 🚀 Tecnologias
 
 - [React Native](https://reactnative.dev/)
@@ -79,4 +88,4 @@ Escaneie o QR code com o app **Expo Go** no celular.
 ## 👩‍💻 Autora
 
 **Andreza Carrilho**  
-[LinkedIn](https://linkedin.com/in/andreza-carrilho-358177261) • [Portfólio](https://portfolio-andreza-carrilho.vercel.app)
+[LinkedIn](https://linkedin.com/in/andreza-carrilho-358177261) • [Portfólio](https://portfolio-andreza-carrilho.vercel.app)o-andreza-carrilho.vercel.app)
